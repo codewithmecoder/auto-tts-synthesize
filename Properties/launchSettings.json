@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Text.To.Speech.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "D:\\Projects\\AI\\Text.To.Speech.Console\\g-key.json"
+      }
+    }
+  }
+}
