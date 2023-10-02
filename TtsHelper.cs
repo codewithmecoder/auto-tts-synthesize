@@ -6,8 +6,6 @@ public static class TtsHelper
 {
     public static async Task StartAsync(SynthesisInput input, string fileAudioPath, VoiceSelectionParams? voiceSelection = null)
     {
-        var a = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
-
         var client = await TextToSpeechClient.CreateAsync();
 
         // You can specify a particular voice, or ask the server to pick based
