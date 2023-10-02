@@ -19,9 +19,9 @@ foreach (var intro in introTexts)
     {
         Text = intro,
 
-    }, Path.Join(curDir, $@"wwwroot\intro\{currentTxtStart}.mp3"));
-    currentIntoTxtStart++;
+    }, Path.Join(curDir, $@"wwwroot\intro\{currentIntoTxtStart}.mp3"));
     Console.WriteLine($"Done Generate {Path.Join(curDir, $@"wwwroot\intro\{currentIntoTxtStart}.mp3")}");
+    currentIntoTxtStart++;
 }
 
 Console.WriteLine("Done generating Intro Audios");
